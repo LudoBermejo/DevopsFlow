@@ -1,9 +1,9 @@
 'use strict';
 
-const express = require('express');
-const hbs = require('express-hbs');
+var express = require('express');
+var hbs = require('express-hbs');
 
-let app = express();
+var app = express();
 
 // Use `.hbs` for extensions and find partials in `views/partials`.
 app.set('view engine', 'hbs');
