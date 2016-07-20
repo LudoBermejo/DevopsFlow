@@ -8,6 +8,9 @@ RUN curl --silent --location https://rpm.nodesource.com/setup | bash -
 RUN yum clean all
 RUN yum -y update
 
+# install nodejs
+RUN yum -y install nodejs
+
 # install npm
 RUN npm -g install npm@latest-2
 
